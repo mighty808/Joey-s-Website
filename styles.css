@@ -137,6 +137,8 @@ footer p{
 
 h1{
   padding-top: 30px;
+  padding-left: 0;
+  padding-bottom: 20px;
 }
 
 p{
@@ -151,3 +153,11 @@ p{
   height: auto;
 }
 
+@media (max-width: 800px){
+  p{
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+  }
+}
